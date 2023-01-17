@@ -38,7 +38,7 @@ const dateButton = document.querySelector("#date");
 
 dateButton.onclick = (event) => {
     const dateToday = new Date();
-    document.getElementById("datePara").textContent = datetoday;
+    document.getElementById("datePara").textContent = dateToday;
     console.log(dateToday);
 }
 
